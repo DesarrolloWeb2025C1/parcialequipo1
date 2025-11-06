@@ -2,9 +2,13 @@
 <!-- Falta agregar datos como apellido y un nro de telefono al formulario --> 
  <section id="contacto" class="contacto">
     <h2>Contacto</h2>
-    <form action="post" class="contacto-form">
+    <form class="contacto-form" action="https://formspree.io/f/xdkpqbrk"
+    method="POST">
+
       <!-- Se espera que los alumnos completen los campos del formulario -->
       <input type="text" name="nombre" placeholder="Nombre" required>
+      <input type="text" name="apellido" placeholder="Apellido" required>
+      <input type="text" name="numero de telefono" placeholder="Numero de telefono" required>
       <input type="email" name="email" placeholder="Email" required>
       <textarea name="mensaje" placeholder="Mensaje" required></textarea>
       <button type="submit">Enviar</button>
