@@ -1,13 +1,13 @@
   /* Footer */
   .footer {
-	background-image: url("../images/footer.jpeg");
+	background-color: black;
 	color: white;
 	text-align: center;
 	padding: 1em;
 	height: 50px;
-	
 	width: 100%;
   }
+  
   .instagram-icon {
 	color: white;
     fill: rgb(255, 252, 252); /* Blanco por defecto */
