@@ -2,6 +2,11 @@
 .contenido {
     padding: 20px;
     text-align: center;
+    margin: 20px;
+}
+
+.h2 {
+    margin: 30px;
 }
 
 /* galeria de integrantes */
