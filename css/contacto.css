@@ -3,8 +3,13 @@
 	background-image: url("../images/footer.jpeg");
 	background-position: center;
 	justify-content: center;
-
  }
+
+ .contacto-h2{
+	padding: 10px 50px;
+ }
+ 
+
  .contacto-form {
 	display: flex;
 	flex-direction: column;
